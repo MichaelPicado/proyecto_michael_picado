@@ -66,7 +66,7 @@ nav ul {
 }
 nav ul li a{
 	color:black;
-	font-size: 19px;
+	font-size: 13px;
 	font-family: Impact;
 	text-decoration: none;
 	padding: 10px;
@@ -264,6 +264,7 @@ section.galeria div {
 section.galeria div img {
    width: 100%;
    height: auto;
+   border-radius: 10px;
 }
 /*Media Queries*/
 @media screen and (max-width: 400px) {
@@ -275,7 +276,13 @@ section.galeria div img {
    }
 }
 
+.galeria{
+	
+	-webkit-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+	box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
 
+}
 
 
 
@@ -294,21 +301,12 @@ section.galeria div img {
 		
 }
 
-	
+	/*--------------- MENU--------------*/
 
-	
 	.menu-bar-mobile{
 	display: none;
 }
 
-.ima-logo {
-
-position: absolute;
-left: 125px;
-top: 10px;
-width: 70%;
-margin-top: 10px;
-}
 
 
 .nav-list{
@@ -320,6 +318,7 @@ margin-top: 10px;
     text-align: center;
     z-index: 2
 }
+
 nav ul{
 	display: block !important;
 		
@@ -332,10 +331,34 @@ nav ul li {
 	display: inline-block;
 		border:none;
 }
+
+
+nav ul li a {
+	font-size: 19px;
+}
+
+
+
+/*----------------LOGO---------------*/
+.ima-logo {
+
+position: absolute;
+left: 125px;
+top: 10px;
+width: 70%;
+margin-top: 10px;
+}
+
+
+
+/*------------------LOGIN CUADRO*/
+
+
 .cuadro-login{
 	margin-top:250px;		
 	
 }
+
 
 	
 
@@ -385,7 +408,7 @@ nav ul li {
  
 }
 
-
+/*-----------------------CUADRO LOGEO-----------*/
 .cuadro-login{
 	overflow: auto;
 	width: 280px;
@@ -410,7 +433,7 @@ form {
 	margin-top: 50px;
 }
 
-
+/*-------------------------PIE DE PAGINA---------------*/
 .footer{
 	overflow: hidden;
 	position: absolute;
