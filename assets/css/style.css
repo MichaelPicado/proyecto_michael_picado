@@ -92,15 +92,14 @@ nav ul li {
 
 .logo {
 	 position: relative; 
-	 width: auto; 
-	 height: 150px; 
+	
 }
 
 .logo-ima{
- position: absolute; 
- width: 100%;
-  height: auto;
-  top: 20px; 
+ 
+ 
+ 
+  
 }
 
 
@@ -340,14 +339,9 @@ nav ul li a {
 
 
 /*----------------LOGO---------------*/
-.ima-logo {
 
-position: absolute;
-left: 125px;
-top: 10px;
-width: 70%;
-margin-top: 10px;
-}
+
+
 
 
 
@@ -377,8 +371,7 @@ margin-top: 10px;
 		background-color: rgba(59, 53, 53, 0.5 );
 }
 
-	body:before {
-		content: "";
+	
 
 	}
 
@@ -390,7 +383,7 @@ margin-top: 10px;
 
 .logo {
 	overflow: auto;
-	 position: relative; 
+	 
 	 width: 900px; 
 	 height: 200px; 
 	 margin: 40px auto;
@@ -458,7 +451,24 @@ form {
 		background-color: rgba(59, 53, 53, 0.5 );
 }
 
-	body:before {
-		content: ""
-	}
+	
+
+
+.logo {
+	overflow: auto;
+	 position: relative; 
+	 width: 900px; 
+	 height: 200px; 
+	 margin: 40px auto;
+	 
+}
+
+	.logo-ima{
+ position: absolute; 
+ width: 900px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
