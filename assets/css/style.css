@@ -1,10 +1,10 @@
 body {
-	background-image: url("../img/pencils.jpg")
+background-image: url("../img/pencils.jpg")
 
 }
 
 .contenedor{
-	position: relative;
+position: relative;
 }
 
 /*--------------- MENU--------------*/
@@ -14,10 +14,9 @@ z-index: 2;
 }
 
 .menu-bar-mobile {
-	background-color: black;
-	overflow: auto;
-	
-	position: fixed;
+background-color: black;
+overflow: auto;
+position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -27,13 +26,13 @@ z-index: 2;
     
 }
 .menu-bar-mobile span {
-	color: black;
-	display: block;
-	font-size: 19px;
-	font-family: Impact;
-	padding: 5px 10px;
-	float: left;
-	z-index: 2;
+color: black;
+display: block;
+font-size: 19px;
+font-family: Impact;
+padding: 5px 10px;
+float: left;
+z-index: 2;
 }
 .menu-bar-mobile:hover {
  
@@ -52,32 +51,31 @@ nav ul:hover {
   }
 
 nav ul {
-	text-align: left;
-	list-style-type: none;
-	background-color: black;
-	display: none;
-	position: fixed;
+text-align: left;
+list-style-type: none;
+background-color: black;
+display: none;
+position: fixed;
     top: 53px;
     left: 0px;
     width: 100px;
    background: rgba(255, 255, 255, 0.25);
 
-	
 }
 nav ul li a{
-	color:black;
-	font-size: 13px;
-	font-family: Impact;
-	text-decoration: none;
-	padding: 10px;
-	width: 50px;
+color:black;
+font-size: 13px;
+font-family: Impact;
+text-decoration: none;
+padding: 10px;
+width: 50px;
 }
 nav ul li a:hover{
-	color: white;
+color: white;
 }
 
 nav ul li {
-	border-bottom:1px solid black;
+border-bottom:1px solid black;
 
 }
 
@@ -85,22 +83,34 @@ nav ul li {
 
 
 .pull-right {
-	float: left;
+float: left;
 }
 
  /*----------IMAGEN LOGO---------------*/
 
+
 .logo {
-	 position: relative; 
-	
+position: relative; 
+width: 100%; 
+height: 200px; 
+ 
+ 
 }
 
 .logo-ima{
-	
+max-width: 736px;
+margin: 50px auto;
+width: 100%;
+display: block;
+
+  
 }
 
+
+
+
 .toggle-btn {
-	cursor:pointer;
+cursor:pointer;
 }
 
 
@@ -108,30 +118,30 @@ nav ul li {
 
 
 .cuadro-login {
-	overflow: auto;
-	width: 300px;
-	margin:180px auto;
-	height: auto;
-	border-radius: 10px;
-	background: rgba(82, 82, 82, 0.5);
-	-webkit-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
-	box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+overflow: auto;
+width: 300px;
+margin:180px auto;
+height: auto;
+border-radius: 10px;
+background: rgba(82, 82, 82, 0.5);
+-webkit-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
 
 }
 form {
-	margin-top: 10px;
+margin-top: 10px;
 }
 label, .campo-texto {
-	font-family: Impact;
-	text-align: left;
-	margin:10px 10px 20px 30px;
+font-family: Impact;
+text-align: left;
+margin:10px 10px 20px 30px;
 
 }
 
 .btn-enviar {
-	float: right;
-	margin: 10px;
+float: right;
+margin: 10px;
 }
 
 
@@ -139,84 +149,83 @@ label, .campo-texto {
 
 
 .btn{
-	opacity: 0.5;
+opacity: 0.5;
 }
 .btn:hover{
-	opacity: 1.0;
+opacity: 1.0;
 }
 
 
 /*-----------PIE DE PAGINA ---------*/
 
 .footer{
-	overflow: hidden;
-	position: relative;
-	margin: auto;
-	height: 55px;
-	left: 0px;
-	bottom: 0px;
-	width:100%;
-	text-align: center;  
-	  background-color: rgba(59, 53, 53, 0.5 );
+overflow: hidden;
+
+margin: auto;
+height: 55px;
+left: 0px;
+bottom: 0px;
+width:100%;
+text-align: center;  
+ background-color: rgba(59, 53, 53, 0.5 );
 }
 
 
 /*------------------DIV DE NOTAS------------------------*/
 
 .main-notas{
-	overflow: auto;
-	margin: 50px auto;
-	width: 80%;
-	height: auto;
-	background-color: rgba(59, 53, 53, 0.5 );
+overflow: auto;
+margin: 50px auto;
+width: 80%;
+height: auto;
+background-color: rgba(59, 53, 53, 0.5 );
 
-	-webkit-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
-	box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
 
 }
 
 .head-notas{
-	float: none;
-	margin: 5px auto;
-	width: 100%;
-	height: 25px;
-	
+float: none;
+margin: 5px auto;
+width: 100%;
+height: 25px;
 
 }
 /*--------------TITULOS Y SUBTITULOS-----------*/
 .titulo{
-	text-align: center;
-	font-family: Impact;
-	font-style: bold;
-	font-size: 25px;
-	letter-spacing: 2px;
-	padding: 2px;
+text-align: center;
+font-family: Impact;
+font-style: bold;
+font-size: 25px;
+letter-spacing: 2px;
+padding: 2px;
 }
 
 .sub-titulo{
-	text-align: center;
-	font-family: Impact;
-	font-style: bold;
-	font-size: 15px;
-	letter-spacing: 2px;
-	border: 1px solid rgba(59, 53, 53, 0.5 );
-	cursor:pointer;
+text-align: center;
+font-family: Impact;
+font-style: bold;
+font-size: 15px;
+letter-spacing: 2px;
+border: 1px solid rgba(59, 53, 53, 0.5 );
+cursor:pointer;
 
 }
 
 .sub-titulo:hover {
-	font-size: 20px;
-	color: white;
+font-size: 20px;
+color: white;
 }
 
 .bar-left {
-	float: left;
-	margin: 5px 0px 0px 0px;
-	width: 25%;
-	height: 300px;
+float: left;
+margin: 5px 0px 0px 0px;
+width: 25%;
+height: 300px;
 
-	display: inline-block;
+display: inline-block;
 
 }
 .bar-left-menu{
@@ -225,13 +234,12 @@ label, .campo-texto {
 }
 
 .bar-right {
-	float: right;
-	margin: 5px 0px 0px 0px;
-	width: 75%;
-	height: 100%;
-	display: inline-block;
-	background-color: yellow;
-	
+float: right;
+margin: 5px 0px 0px 0px;
+width: 75%;
+height: 100%;
+display: inline-block;
+background-color: yellow;
 }
 
 
@@ -271,19 +279,40 @@ section.galeria div img {
 }
 
 .galeria{
-	
-	-webkit-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
-	box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
 
 }
 
+/************************FORMULARIO*****************************/
 
+.contacto{
+	overflow: auto;
+	margin: 50px auto;
+	width: 250px;
+	border-radius: 10px;
+	background-color: rgba(59, 53, 53, 0.5 );
 
+-webkit-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
+box-shadow: 9px 9px 42px -1px rgba(0,0,0,0.75);
 
+}
+.aste{
+font-weight: bolder; 
+color: red;	
+}
 
-
-
+.form{
+  margin-left: 20px;
+}
+.formklein{
+  text-align: center;
+}
+.formsubmit{
+margin-left: 180px;
+}
 
 
 
@@ -291,22 +320,21 @@ section.galeria div img {
 
 
 @media all and (min-width: 768px) {
-	body{
-		
+body{
 }
 
-	/*--------------- MENU--------------*/
+/*--------------- MENU--------------*/
 
-	.menu-bar-mobile{
-	display: none;
+.menu-bar-mobile{
+display: none;
 }
 
 
 
 .nav-list{
-	margin: 0px;
-	padding: 10px;
-	position: fixed;
+margin: 0px;
+padding: 10px;
+position: fixed;
     top: 0;
     left: 0;
     text-align: center;
@@ -314,21 +342,19 @@ section.galeria div img {
 }
 
 nav ul{
-	display: block !important;
-		
+display: block !important;
  
     width: 100%;
 
 }
 nav ul li {
-	
-	display: inline-block;
-		border:none;
+display: inline-block;
+border:none;
 }
 
 
 nav ul li a {
-	font-size: 19px;
+font-size: 19px;
 }
 
 
@@ -344,17 +370,15 @@ nav ul li a {
 
 
 .cuadro-login{
-	margin-top:250px;		
-	
+margin-top:250px;	
 }
 
 
-	
 
 }
 .cont-login{
-	margin: auto;
-	width: auto;
+margin: auto;
+width: auto;
 }
 
 
@@ -362,13 +386,12 @@ nav ul li a {
 /*-----------------------COMPUTADORA LOW RESO-------------------*/
 
 @media all and (min-width:1024px) {
-	body{
-		background-color: rgba(59, 53, 53, 0.5 );
+body{
+background-color: rgba(59, 53, 53, 0.5 );
 }
 
-	
 
-	}
+}
 
 
 
@@ -376,64 +399,44 @@ nav ul li a {
 
  /*----------IMAGEN LOGO---------------*/
 
-.logo {
-	overflow: auto;
-	 
-	 width: 900px; 
-	 height: 200px; 
-	 margin: 40px auto;
-	 
-}
-
-.logo-ima{
- position: absolute; 
- width: 900px;
-  height: 200px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
- 
-}
-
 /*-----------------------CUADRO LOGEO-----------*/
 .cuadro-login{
-	overflow: auto;
-	width: 280px;
-	border: 1px;
-	margin: 150px auto;
-	height: 280px;
-	border-radius: 5px;
+overflow: auto;
+width: 280px;
+border: 1px;
+margin: 150px auto;
+height: 280px;
+border-radius: 5px;
 }
 
 label, .campo-texto {
-	font-family: Impact;
-	text-align: left;
-	margin:10px 10px 30px 70px;
+font-family: Impact;
+text-align: left;
+margin:10px 10px 30px 70px;
 
 }
 
 .btn-enviar {
-	float: right;
-	margin: 10px;
+float: right;
+margin: 10px;
 }
 form {
-	margin-top: 50px;
+margin-top: 50px;
 }
 
 /*-------------------------PIE DE PAGINA---------------*/
 .footer{
-	overflow: hidden;
-	position: absolute;
-	margin: auto;
-	height: 55px;
-	top: 1200px;
-	left: 0px;
-	right: 0;
-	bottom: 0px;
-	width:100%;
-	  
-	background-color: rgba(59, 53, 53, 0.5 );
+overflow: hidden;
+
+margin: auto;
+height: 55px;
+
+left: 0px;
+right: 0;
+bottom: 0px;
+width:100%;
+ 
+background-color: rgba(59, 53, 53, 0.5 );
 }
 
 
@@ -442,28 +445,12 @@ form {
 }
 
 @media all and (min-width: 1280px) {
-	body{
-		background-color: rgba(59, 53, 53, 0.5 );
+body{
+background-color: rgba(59, 53, 53, 0.5 );
 }
 
-	
 
+  
+}	
 
-.logo {
-	overflow: auto;
-	 position: relative; 
-	 width: 900px; 
-	 height: 200px; 
-	 margin: 40px auto;
-	 
-}
-
-	.logo-ima{
- position: absolute; 
- width: 900px;
-  height: 200px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
